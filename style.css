@@ -92,10 +92,6 @@ a[type="button"] {
     color: var(--text-yellow) !important;
 }
 
-.color-midnight{
-    color: var(--midnight-color) !important;
-}
-
 .color-red {
     color: var(--red-color);
 }
@@ -260,13 +256,6 @@ a[type="button"] {
     display: block;
 }
 
-.cropped-image {
-    width: 600px;           /* Width you desire */
-    height: 400px;          /* Height you desire */
-    background-size: cover;     /* This will cover the div, cropping the image */
-    background-position: center; /* This will center the image in the div */
-}
-
 .image-infinite-bg {
     width: 100%;
     transition: background 0.3s ease;
@@ -274,15 +263,6 @@ a[type="button"] {
     background-position: center;
     position: relative;
     background-color: #000000;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-
-.image-infinite {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .image-overlay {
@@ -314,18 +294,6 @@ a[type="button"] {
 
 .text-1 {
     font-family: var(--font-1);
-}
-
-.text-2 {
-    font-family: var(--font-2);
-}
-
-.text-3 {
-    font-family: var(--font-3);
-}
-
-.text-4 {
-    font-family: var(--font-4);
 }
 
 .color-1 {
@@ -363,11 +331,9 @@ a[type="button"] {
 }
 
 .section-3 {
-    background: url('../image/Food/1920x900PadThai.png');
+    background: url('../image/dummy-img-1920x900.jpg');
     background-position: center;
-    background-size: fit;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .section-5 {
