@@ -80,6 +80,14 @@ a[type="button"] {
     font-family: var(--font-2);
 }
 
+.font-allan{
+    font-family: var(--font-1);
+}
+
+.font-sofiabold{
+    font-family: var(--font-3);
+}
+
 .bg-yellow {
     background-color: var(--yellow-color);
 }
@@ -137,7 +145,19 @@ a[type="button"] {
 }
 
 .r-section {
-    padding: 10em 1em 10em 1em;
+    padding: 7em 1em 7em 1em;
+}
+
+.r-section2 {
+    padding: 2em 1em 2em 1em;
+}
+
+.r-sectionbtn {
+    padding: 2em 1em 5em 1em;
+}
+
+.r-sectiontop {
+    padding: 5em 1em 2em 1em;
 }
 
 .r-section .r-container {
@@ -225,7 +245,8 @@ a[type="button"] {
 }
 
 .navbar-nav .nav-link {
-    color: var(--text-black);
+    color: var(--midnight-color);
+    font-size: 1.5rem;
 }
 
 .navbar .dropdown-menu {
